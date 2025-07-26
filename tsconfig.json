@@ -2,6 +2,25 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "strictPropertyInitialization": false,
+    "noImplicitOverride": false,
+    "paths": {
+      "@core/*": [
+        "./src/app/core/*"
+      ],
+      "@shared/*": [
+        "./src/app/shared/*"
+      ],
+      "@auth/*": [
+        "./src/app/auth/*"
+      ],
+      "@client/*": [
+        "./src/app/client/*"
+      ],
+      "@public/*": [
+        "./src/app/public/*"
+      ]
+    }
   }
 }

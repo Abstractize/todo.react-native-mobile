@@ -75,6 +75,16 @@ Testing setup not included by default, but you can add libraries like Jest and R
 
 ---
 
+## 🖼️ Screenshots
+
+Screenshots of the app are available in the [`docs/images`](docs/images) directory:
+
+| Login Screen | Todo List | Statistics |
+|:------------:|:---------:|:----------:|
+| ![Login](docs/images/Login.png) | ![Todo List](docs/images/TaskList.png) | ![Statistics](docs/images/Stats.png) |
+
+---
+
 ## 🛠️ Building for Production
 
 Build and publish your Expo app following [Expo's official guides](https://docs.expo.dev/distribution/building-standalone-apps/).
@@ -84,9 +94,3 @@ Build and publish your Expo app following [Expo's official guides](https://docs.
 ## 📜 License
 
 [MIT](./LICENSE)
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome! Please open issues to discuss major features or bugs.
